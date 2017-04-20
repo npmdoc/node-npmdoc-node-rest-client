@@ -8,8 +8,8 @@
 <tspan x="10" y="90">  ├─┬ debug@2.2.0 </tspan>
 <tspan x="10" y="106">  │ └── ms@0.7.1 </tspan>
 <tspan x="10" y="122">  ├─┬ follow-redirects@1.2.3 </tspan>
-<tspan x="10" y="138">  │ └─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="154">  │   └── ms@0.7.2 </tspan>
+<tspan x="10" y="138">  │ └─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="154">  │   └── ms@0.7.3 </tspan>
 <tspan x="10" y="170">  └─┬ xml2js@0.4.17 </tspan>
 <tspan x="10" y="186">    ├── sax@1.2.2 </tspan>
 <tspan x="10" y="202">    └─┬ xmlbuilder@4.2.1 </tspan>
