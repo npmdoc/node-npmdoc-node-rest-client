@@ -1,6 +1,6 @@
 # npmdoc-node-rest-client
 
-#### api documentation for  node-rest-client (v3.1.0)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-rest-client.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-rest-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-rest-client.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-rest-client)
+#### basic api documentation for  [node-rest-client (v3.1.0)](https://github.com/aacerox/node-rest-client)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-rest-client.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-rest-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-rest-client.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-rest-client)
 
 #### node API REST client
 
@@ -21,32 +21,50 @@
 ```json
 
 {
-    "author": "Alejandro Alvarez Acero",
-    "name": "node-rest-client",
-    "description": "node API REST client",
-    "version": "3.1.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aacerox/node-rest-client.git"
+    "author": {
+        "name": "Alejandro Alvarez Acero"
     },
-    "main": "./lib/node-rest-client",
+    "bugs": {
+        "url": "https://github.com/aacerox/node-rest-client/issues"
+    },
     "dependencies": {
-        "xml2js": ">=0.2.4",
         "debug": "~2.2.0",
-        "follow-redirects": ">=1.2.0"
+        "follow-redirects": ">=1.2.0",
+        "xml2js": ">=0.2.4"
     },
+    "description": "node API REST client",
     "devDependencies": {
         "mocha": "*",
         "should": ">= 0.0.1"
     },
-    "optionalDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "e0beb6dda7b20cc0b67a7847cf12c5fc419c37c3",
+        "tarball": "https://registry.npmjs.org/node-rest-client/-/node-rest-client-3.1.0.tgz"
+    },
     "engines": {
         "node": "*"
+    },
+    "gitHead": "082c3ff4f99e4b9285e26bb81f6d344c012cbbd8",
+    "homepage": "https://github.com/aacerox/node-rest-client",
+    "license": "MIT",
+    "main": "./lib/node-rest-client",
+    "maintainers": [
+        {
+            "name": "acero"
+        }
+    ],
+    "name": "node-rest-client",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aacerox/node-rest-client.git"
     },
     "scripts": {
         "test": "mocha"
     },
-    "license": "MIT"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
